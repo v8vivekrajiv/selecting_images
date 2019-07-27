@@ -1,0 +1,43 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.container
+{
+    border: 2px black;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+
+}
+
+.left_container
+{
+    border: 1px black;
+}
+.left_container div
+{
+    border: 2px black;
+    width: 30%;
+    height: 30px;
+}
+.right_container
+{
+    border: 1px black;
+}
+
+#cats_name
+{
+    width: 5%;
+    height: 2%;
+}
+#cats_click
+{
+    width: 5%;
+    height: 2%;
+}
+#cats_image
+{
+    width: 80%;
+    height: 90%;
+}
